@@ -15,14 +15,14 @@ export const sendEmail = async (req, res) => {
     let mailTransporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "jubriljammal69@gmail.com",
-        pass: "ygue pvnp hfhd ayjn",
+        user: "amugoltd@gmail.com",
+        pass: process.env.EMAIL_PASS,
       },
     });
 
     let details = {
-      from: "jubriljammal69@gmail.com",
-      to: [email, "jubriljammal69@gmail.com"],
+      from: "amugoltd@gmail.com",
+      to: [email, "amugoltd@gmail.com"],
       subject: `Order Confirmed !!`,
       html: receipt(
         order_id,
