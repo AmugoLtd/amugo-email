@@ -339,7 +339,7 @@ export const receipt = (
                     <td
                       style="color: #718096"
                       width="50%"
-                    >${item.quantity} X ${item.name}</td>
+                    >${item.quantity} X ${item.name} of ${item.variant}</td>
                     <td
                       style="font-weight: 600; text-align: right"
                       width="50%"
