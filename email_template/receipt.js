@@ -133,7 +133,7 @@ export const receipt = (
     "
   >
     <div style="display: none; line-height: 0; font-size: 0">
-      Hey Jamie, thanks for booking with us - your reservation is now confirmed
+      Hey ${email} your food order is now confirmed
       ✔
     </div>
     <table
@@ -224,7 +224,7 @@ export const receipt = (
                           font-size: 24px;
                         "
                       >
-                        #${id}
+                        Order Id: #${id}
                       </h1>
                       <p
                         class="sm-text-xs"
