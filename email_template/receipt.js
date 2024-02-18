@@ -177,7 +177,7 @@ export const receipt = (
                 width="200"
               >
                 <img
-                  src="https://www.foodandwine.com/thmb/DI29Houjc_ccAtFKly0BbVsusHc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg"
+                  src="https://res.cloudinary.com/duhho5y5s/image/upload/v1708282456/Whats_App_Image_2024_02_18_at_3_46_08_PM_e0aff96bd6.jpg"
                   alt="Double room"
                   style="
                     border: 0;
